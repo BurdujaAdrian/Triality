@@ -1,0 +1,2 @@
+In n-p when a player would be hit by an opponents move,while another of their own move isn't happening, they block correctly the 1st move only,then p-p is initialised and the defending player 
+is given the opportunity to block however they want.

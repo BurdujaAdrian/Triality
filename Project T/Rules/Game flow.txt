@@ -1,0 +1,34 @@
+The game starts by preparing the board(1). Put the deck in the deck slot on the field, do the same for the extra deck(2). Both players put their characters(3) on the field, one zone(4) from the stage center zone each.
+The game starts by deciding who is the right hand player(5) by fliping a coin or other method.
+Both players draw until they have 5 cards in hand.
+The 1st part of any game of triality is the round-start.
+Round-start:
+-During r-s players cant activate(6) or play(7) cards but they can input and buffer moves(8).
+After both players agree to end r-s round 1 fallows.
+Round 1:
+-This is when players are allowed to act.
+-Moves inputed in r-s are played imidiatly.
+-During a round there are 3 phases the game can be in:
+    (When a new phase is initiated both players draw until they have 5 cards
+    in hand,otherwise they draw only 1.)
+    -Neutral phase: both players have the same freedom of action.
+    -Defending phase: when one player succesfully plays a card and the opponent corectly blocks(9) its active frame(10) the d-p is initiated. 
+    During this phase the player who initiated the phase, the attacking player, retains full control over their cards while the defending player is limited to playing only cards that can be played 
+    during this phase. 
+    The phase persists for as long as the defending player is in blockstun(11).In this phase chip damage(12) can be dealt,but a players hp cannot be reduced below 1 in this phase.
+    -Combo phase: When a player succesfully playes a card and the opponent doesnt block the card the c-p is initiated. In this phase, similarly to d-p, the attacking player has full control while 
+    the player that was hit
+    has even less ways to play. 
+-Round 1 continiues until 
+
+
+
+indexes:
+[1]go to Board\board.png
+[2]go to Rules\Extra deck and extra deck cards.txt and Cards\Card types\Extra deck cards
+[3]go to Cards\Card types\character cards
+[4]go to Board\board zones.txt
+[5]go to Rules\players\player1 & player 2.txt
+[6]go to rules\effects costs and activation.txt
+[7]go to Rules\playing cards.txt
+[8]go to Rules\players\player actions.txt
