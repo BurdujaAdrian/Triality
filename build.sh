@@ -1,3 +1,3 @@
 #!/bin/bash
 
-clang src/main.cpp -otri.exe
+clang -g src/main.cpp -otri.exe
