@@ -4,7 +4,7 @@
 *.exp
 *.obj
 *.dll
-*.pbd
+*.pdb
 *.nativecodeanalysis.xml
 *.lib
 build
