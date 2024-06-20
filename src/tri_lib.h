@@ -15,6 +15,13 @@
 #elif __APPLE__
 #define DEBUG_BREAK() __builtin_trap()
 #endif
+
+#define b8 char
+#define BIT(x) 1 << (x)
+#define KB(x) ((unsigned long long)1024 * x)
+#define MB(x) ((unsigned long long)1024 * KB(x))
+#define GB(x) ((unsigned long long)1024 * MB(x))
+
 //################################################################
 //                          Logging 
 //################################################################
@@ -104,7 +111,7 @@ BumpAllocator make_bump_allocator(size_t size){
   }
 
   SM_ASSERT(false, "Failed to allocate memory");
-  //return ba;
+  return ba;
 }
 
 char* bump_alloc(BumpAllocator* bumpAllocator, size_t size){
@@ -120,7 +127,7 @@ char* bump_alloc(BumpAllocator* bumpAllocator, size_t size){
   }
 
   SM_ASSERT(false, "bumpAllocator is full");
-  //return result;
+  return result;
 }
 
 // #############################################################################
