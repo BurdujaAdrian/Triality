@@ -1,0 +1,7 @@
+🔴= active frame
+⚫= grab frame
+🟢= uncancelable frame
+🟣= armoured frame
+🔵= cancelable frame
+⚪= invincible frame
+

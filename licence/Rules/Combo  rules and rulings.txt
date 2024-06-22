@@ -1,0 +1,2 @@
+Combos are created by puting attack cards[1] on the field while your opponent is in hitstun[2].
+A chain is a sequence of attack starting with a starter move which is cancelled[3] into more moves(simplest combo is a normal which is then cancelled into a special)

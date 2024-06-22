@@ -3,6 +3,7 @@
     "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
         "clang-diagnostic-format-security",
         "clang-diagnostic-writable-strings",
-        "clang-diagnostic-error"
+        "clang-diagnostic-error",
+        "clang-diagnostic-microsoft-enum-forward-reference",
     ]
 }

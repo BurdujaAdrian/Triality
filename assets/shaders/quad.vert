@@ -2,8 +2,7 @@
 
 void main(){
 
-  Transform transform = transforms[gl_InstanceID];
-
+  //Transform transform = transforms[gl_InstanceID];
   // Generating Vertices on the GPU
   // mostly because we have a 2D Engine
 
@@ -29,11 +28,5 @@ void main(){
   };
 
   gl_Position = vec4(vertices[gl_VertexID], 1.0, 1.0);
-
-
-
-
-
-
-    gl_Position = 
+  
 }
